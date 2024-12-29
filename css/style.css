@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header Section */
+.header {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #0000ff;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #0056b3;
+}
+
+/* Main Section */
+.main-section {
+    text-align: center;
+    background-color: #4b0082;
+    color: white;
+    padding: 50px 20px;
+}
+
+.main-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.main-section p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.main-section .register-btn {
+    background-color: #0000ff;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.main-section .register-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Benefits Section */
+.benefits-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.benefits-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.benefits-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits-section li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+/* Courses Section */
+.courses-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.courses-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.course-card {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.course-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    color: #555;
+}

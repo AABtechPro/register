@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Online Learning Platform</title>
+</head>
+<body bgcolor="#e6f7ff" text="black">
+    <!-- Header Section -->
+    <marquee behavior="alternate" scrolldelay="50" height="100px" scrollamount="20" bgcolor="#b3e6ff" loop="infinity">
+        <h1>Welcome to Our Online Learning Platform</h1>
+    </marquee>
+    <hr width="80%" color="#005580" size="3">
+
+    <!-- Navigation Links -->
+    <p align="center">
+        <a href="index.html">Home</a> | 
+        <a href="courses.html">Courses</a> | 
+        <a href="about.html">About Us</a> | 
+        <a href="contact.html">Contact</a>
+        <a href="register.html">Register</a>
+    </p>
+    <hr width="80%" color="#005580" size="3">
+
+    <!-- Welcome Section -->
+    <h2 align="center">Learn Anytime, Anywhere</h2>
+    <p align="center">
+        Welcome to our platform, designed for students of all levels who wish to enhance their knowledge in Mathematics, Physics, and Engineering. 
+      <br>  Explore our courses ranging from O-Level to advanced programs like GE 501 and Math 505. <br>Enroll now and start your learning journey!
+    </p>
+
+    <!-- Courses Overview -->
+    <h3 align="center" style="color: #005580;">What We Offer</h3>
+    <ol align="center" style="background-color: khaki;">
+        <li>O-Level Mathematics and Physics</li>
+        <li>A-Level Mathematics and Physics</li>
+        <li>GE 501: Computer Simulations of Engineering Systems</li>
+        <li>Math 505: Applied Linear Algebra</li>
+        <li>Beginner to Advanced Level Topics</li>
+        <li>Assignments</li>
+    </ol>
+
+    <!-- Enrollment Section -->
+    <h3 align="center">Enroll Now</h3>
+    <form action="submit_enrollment.html" method="post" align="center">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone"  placeholder="123-456-7890" required><br><br>
+
+        <label for="course">Select a Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="olevel-maths">O-Level Mathematics</option>
+            <option value="olevel-physics">O-Level Physics</option>
+            <option value="alevel-maths">A-Level Mathematics</option>
+            <option value="alevel-physics">A-Level Physics</option>
+            <option value="ge501">GE 501: Computer Simulations</option>
+            <option value="math505">Math 505: Applied Linear Algebra</option>
+        </select><br><br>
+
+        <label for="start-date">Preferred Start Date:</label><br>
+        <input type="date" id="start-date" name="start-date" required><br><br>
+
+        <input type="submit" value="Enroll Now">
+    </form>
+
+    <!-- Testimonials Section -->
+    <h3 align="center">What Our Students Say</h3>
+    <p align="center">
+        "This platform has completely transformed how I learn Physics and Mathematics. Highly recommended!"<br>
+        - A-Level Student
+    </p>
+    <p align="center">
+        "GE 501 gave me the tools to excel in engineering simulations. A game-changer for my career!"<br>
+        - Master's Student
+    </p>
+
+    <!-- Footer -->
+    <hr width="80%" color="#005580" size="3">
+    <p align="center">
+        © 2024 Online Learning Platform. All Rights Reserved. <br>
+        Email: support@realomoakin.com.ng | Phone: +2348060385493</p>
+</body>
+</html>
